@@ -1,7 +1,7 @@
 # В этом файле размещаем работу самого бота.
 from aiogram import executor
 
-from loader import dp
+from handlers import dp
 import middlewares, filters, handlers
 from utils.notify_admins import on_startup_notify
 
